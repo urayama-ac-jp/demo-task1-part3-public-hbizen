@@ -36,7 +36,7 @@ public class PortalController {
      * level 1-1 名前表示
      */
     // 名前表示
-    model.addAttribute("name", "○○"); // ○○を書き換えて名前を表示
+    model.addAttribute("name", "備前"); // ○○を書き換えて名前を表示
 
     // 天気表示
     Weather weather = weatherService.findWeather();
